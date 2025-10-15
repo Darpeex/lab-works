@@ -1,0 +1,13 @@
+/* Desktop: > 768px - полная версия с сеткой */
+
+/* Tablet: 768px - адаптированная навигация */
+@media screen and (max-width: 768px) {
+}
+
+/* Mobile: < 480px - мобильная версия */
+@media screen and (max-width: 480px) {
+}
+
+/* Очень маленькие экраны */
+@media (max-width: 360px) {
+}

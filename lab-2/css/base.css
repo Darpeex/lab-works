@@ -1,0 +1,39 @@
+/* Сброс стилей и базовые настройки */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Переменные цветов */
+:root {
+  --white: #ffffff;
+  --black: #000000;
+
+  --grey: #d4d4d4;
+  --light-grey: #f6f6f6;
+
+  --green: #a0cd9e;
+  --light-green: #eff6f3;
+  --dark-green: #3a4f39;
+}
+
+/* Базовые стили страницы */
+.page {
+  /* font-family: "Inter", Arial, sans-serif; */
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: var(--white);
+}
+
+/* Общие стили для контейнеров */
+.header__container,
+.hero__container,
+.cards__container,
+.footer__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
