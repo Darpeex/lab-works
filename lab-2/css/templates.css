@@ -50,7 +50,7 @@
 }
 
 .templates__actions-border-line {
-  width: 300px;
+  min-width: 300px;
   border-bottom: 5px solid var(--green);
 }
 
@@ -61,8 +61,9 @@
   text-align: center;
   margin: 32px auto;
 }
-.templates__actions-buttons {
-}
+
+/* .templates__actions-buttons {} */
+
 .templates__actions-button {
   padding: 14.5px 67px;
 }

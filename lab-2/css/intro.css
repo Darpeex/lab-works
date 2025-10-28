@@ -30,18 +30,18 @@
   grid-template-rows: auto 1fr auto;
 }
 
-.intro__text-subtitles-shapes_circle {
+.intro__text-subtitles-shape_circle {
   width: 23px;
   height: 23px;
   border-radius: 50%;
   background-color: var(--dark-green);
 }
 
-.intro__text-subtitles-shapes_vertical-line {
+.intro__text-subtitles-shape_vertical-line {
   border-left: 1px dashed var(--dark-green);
 }
 
-.intro__text-subtitles-shapes_small-circle {
+.intro__text-subtitles-shape_small-circle {
   width: 13px;
   height: 13px;
   border-radius: 50%;
@@ -84,7 +84,7 @@
 
 .intro__image {
   width: 848px;
-  height: 383px;
+  max-height: 383px;
   object-fit: cover;
   border-radius: 8px;
 }

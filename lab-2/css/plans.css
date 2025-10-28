@@ -29,12 +29,7 @@
   font-size: 12px;
 }
 
-.plans__card-price-button {
-  /* font-weight: 18px;
-  padding: 14.5px 72.5px;
-  color: var(--white);
-  background: var(--dark-green); */
-}
+/* .plans__card-price-button {} */
 
 /* features */
 .plans__card-features {
@@ -60,5 +55,4 @@
   background: url(../images/cross) no-repeat;
 }
 
-.plans__card-features-feature-name {
-}
+/* .plans__card-features-feature-name {} */

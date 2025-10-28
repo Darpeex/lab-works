@@ -44,3 +44,8 @@
   max-width: 154px;
   max-height: 56px;
 }
+
+.footer__background-info-socials-link-icon:hover,
+.footer__background-info-links-link:hover {
+  opacity: 0.7;
+}

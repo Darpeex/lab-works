@@ -4,34 +4,23 @@
   align-items: center;
 }
 
-.testimonials__avatars {
-}
+/* .testimonials__avatars {} */
 
-.testimonials__avatars-avatar {
-  /* width: 100px;
-  height: 100px;
-  object-fit: cover;
-  border-radius: 50%; */
-
-  max-width: 342px;
-}
+/* .testimonials__avatars-avatar {} */
 
 /* decorative */
 .testimonials__decorative {
   margin: auto 90px auto 78px;
   background-image: url(../images/decorative-group.png);
   width: 16px;
-  height: 290px;
+  min-height: 290px;
 }
 
-.testimonials__decorative-line {
-}
+/* .testimonials__decorative-line {} */
 
-.testimonials__decorative-circle {
-}
+/* .testimonials__decorative-circle {} */
 
-.testimonials__decorative-circle-fill {
-}
+/* .testimonials__decorative-circle-fill {} */
 
 /* quote */
 .testimonials__quote {
