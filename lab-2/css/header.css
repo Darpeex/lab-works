@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 60px 20px 65px;
+}
+
+.header__link-logo {
+  background: url(../images/header-logo.svg) no-repeat;
+  width: 90px;
+  height: 55px;
+  background-size: contain;
+}
+
+.header__navbar {
+  display: flex;
+  align-items: center;
+  padding: 16px 35px;
+  gap: 46px;
+  font-size: 16px;
+  border-radius: 80px;
+  background: var(--light-grey);
+}
+
+.header__navbar-link {
+  text-decoration: none;
+  line-height: 12px;
+  color: var(--black);
+}
+.header__navbar-link:hover {
+  opacity: 0.7;
+}

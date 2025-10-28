@@ -1,0 +1,114 @@
+.templates {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+    "text image"
+    "actions actions"
+    "ideas ideas";
+  justify-items: center;
+  justify-content: space-between;
+  row-gap: 50px;
+}
+
+.templates__text {
+  grid-area: text;
+  max-width: 325px;
+  margin: 96px 156px;
+}
+
+.templates__title {
+  font-weight: 600;
+  font-size: 50px;
+  margin-bottom: 16px;
+}
+
+.templates__description {
+  max-width: 284px;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.templates__image {
+  grid-area: image;
+  max-width: 1280px;
+}
+
+/* actions */
+.templates__actions {
+  grid-area: actions;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.templates__actions-title {
+  margin-bottom: 16px;
+  font-weight: 600;
+  font-size: 51px;
+}
+
+.templates__actions-border-line {
+  width: 300px;
+  border-bottom: 5px solid var(--green);
+}
+
+.templates__actions-description {
+  max-width: 548px;
+  line-height: 22px;
+  font-size: 17px;
+  text-align: center;
+  margin: 32px auto;
+}
+.templates__actions-buttons {
+}
+.templates__actions-button {
+  padding: 14.5px 67px;
+}
+.templates__actions-button:first-child {
+  margin-right: 15px;
+}
+
+/* ideas */
+.templates__ideas {
+  grid-area: ideas;
+  display: grid;
+  align-content: center;
+  max-width: 1067px;
+}
+.templates__ideas-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-top: 1px solid var(--green);
+  padding: 24px 0 30px;
+  max-width: 1067px;
+  gap: 220px;
+}
+.templates__ideas-card:last-of-type {
+  padding-bottom: 0;
+}
+.templates__ideas-card-text {
+  max-width: 382px;
+}
+.templates__ideas-card-title {
+  font-size: 32.6px;
+  margin-bottom: 3px;
+}
+.templates__ideas-card-link {
+  font-size: 18px;
+  color: var(--dark-green);
+}
+.templates__ideas-card-description {
+  gap: 32px;
+  display: flex;
+  align-items: center;
+}
+.templates__ideas-card-description-text {
+  font-size: 18px;
+  max-width: 290px;
+}
+.templates__ideas-card-description-image {
+  max-width: 102px;
+  border-radius: 10px;
+}

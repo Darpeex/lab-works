@@ -1,0 +1,46 @@
+.team {
+  display: grid;
+  max-width: 830px;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  margin: 96px auto;
+}
+
+.team__card {
+  position: relative;
+  min-width: 390px;
+  min-height: 368px;
+}
+
+.team__card-person-background {
+  position: absolute;
+  top: 1px;
+  left: 9px;
+  max-height: 281px;
+}
+
+.team__card-person {
+  display: flex;
+  max-width: 272px;
+  background: url(../images/background-photo.png) no-repeat;
+  background-position: center;
+}
+
+.team__card:nth-of-type(2) .team__card-person {
+  position: absolute;
+  top: 13px;
+  left: 13px;
+  background: none;
+}
+
+.team__card-description {
+  color: var(--white);
+  padding: 35px 32px;
+  max-width: 320px;
+  background: var(--dark-green);
+
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-radius: 20px 20px 20px 0;
+}

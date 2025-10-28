@@ -4,17 +4,475 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Вариант 13</title>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
-  <body>
-    <header class="header"></header>
+  <body class="page">
+    <!-- header -->
+    <header class="header">
+      <a class="header__link" href="#"><div class="header__link-logo"></div></a>
+      <nav class="header__navbar">
+        <a href="#" class="header__navbar-link">Perks</a>
+        <a href="#" class="header__navbar-link">Works</a>
+        <a href="#" class="header__navbar-link">Pricing</a>
+        <a href="#" class="header__navbar-link">FAQs</a>
+        <a href="#" class="header__navbar-link"
+          ><img src="./images/bag.svg" alt="Сумка-корзина"
+        /></a>
+      </nav>
+    </header>
+
     <main class="content">
-      <section class="intro"></section>
-      <section class="price"></section>
-      <section class="testimonials"></section>
-      <section class="templates"></section>
-      <section class="team"></section>
-      <section class="form"></section>
+      <!-- intro -->
+      <section class="intro">
+        <div class="intro__text">
+          <h1 class="intro__text-title">Try using our templates!</h1>
+          <div class="intro__text-subtitles">
+            <div class="intro__text-subtitles-shapes">
+              <div class="intro__text-subtitles-shapes_circle"></div>
+              <div class="intro__text-subtitles-shapes_vertical-line"></div>
+              <div class="intro__text-subtitles-shapes_small-circle"></div>
+            </div>
+            <div class="intro__text-subtitles-wrapper">
+              <p class="intro__text-subtitles-subtitle">
+                Let&rsquo;s embody your beautiful ideas together, <br />simplify
+                the way you visualize your next big things.
+              </p>
+              <p class="intro__text-subtitles-subtitle">
+                Let&rsquo;s embody your beautiful ideas together, <br />simplify
+                the way you visualize your next big things.
+              </p>
+            </div>
+            <button class="intro__subtitles-button">
+              <img
+                class="intro__subtitles-button-icon"
+                src="./images/arrow.svg"
+                alt="Стрелка" />
+            </button>
+          </div>
+        </div>
+        <figure class="intro__figure">
+          <img
+            src="./images/place-1.png"
+            alt="Горный пейзаж"
+            class="intro__image" />
+        </figure>
+      </section>
+
+      <!-- plans -->
+      <section class="plans">
+        <!-- plan-1 0$ -->
+        <div class="plans__card">
+          <div class="plans__card-price">
+            <h1 class="plans__card-price-title">$0</h1>
+            <p class="plans__card-price-description">
+              It&nbsp;is&nbsp;a&nbsp;long established fact that a&nbsp;reader
+              will be&nbsp;distracted.
+            </p>
+            <button
+              class="plans__card-price-button rectangular-button rectangular-button_green">
+              Try now
+            </button>
+          </div>
+
+          <div class="plans__card-features">
+            <div class="plans__card-features-feature">
+              <img
+                class="plans__card-features-feature-icon"
+                src="./images/check.svg"
+                alt="Галочка" />
+              <p class="plans__card-features-feature-name">PNG templates</p>
+            </div>
+
+            <div
+              class="plans__card-features-feature plans__card-features-feature_disabled">
+              <img
+                class="plans__card-features-feature-icon"
+                src="./images/cross.svg"
+                alt="Крестик" />
+              <p class="plans__card-features-feature-name">
+                Figma responsive components
+              </p>
+            </div>
+
+            <div
+              class="plans__card-features-feature plans__card-features-feature_disabled">
+              <img
+                class="plans__card-features-feature-icon"
+                src="./images/cross.svg"
+                alt="Крестик" />
+              <p class="plans__card-features-feature-name">Constant updates</p>
+            </div>
+
+            <div
+              class="plans__card-features-feature plans__card-features-feature_disabled">
+              <img
+                class="plans__card-features-feature-icon"
+                src="./images/cross.svg"
+                alt="Крестик" />
+              <p class="plans__card-features-feature-name">Custom templates</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- plan-2 99$ -->
+        <div class="plans__card">
+          <div class="plans__card-price">
+            <h1 class="plans__card-price-title">$99</h1>
+            <p class="plans__card-price-description">
+              It&nbsp;is&nbsp;a&nbsp;long established fact that a&nbsp;reader
+              will be&nbsp;distracted.
+            </p>
+            <button
+              class="plans__card-price-button rectangular-button rectangular-button_green">
+              Try now
+            </button>
+          </div>
+
+          <div class="plans__card-features">
+            <div class="plans__card-features-feature">
+              <img
+                class="plans__card-features-feature-icon"
+                src="./images/check.svg"
+                alt="Галочка" />
+              <p class="plans__card-features-feature-name">PNG templates</p>
+            </div>
+
+            <div class="plans__card-features-feature">
+              <img
+                class="plans__card-features-feature-icon"
+                src="./images/check.svg"
+                alt="Крестик" />
+              <p class="plans__card-features-feature-name">
+                Figma responsive components
+              </p>
+            </div>
+
+            <div
+              class="plans__card-features-feature plans__card-features-feature_disabled">
+              <img
+                class="plans__card-features-feature-icon"
+                src="./images/cross.svg"
+                alt="Крестик" />
+              <p class="plans__card-features-feature-name">Constant updates</p>
+            </div>
+
+            <div
+              class="plans__card-features-feature plans__card-features-feature_disabled">
+              <img
+                class="plans__card-features-feature-icon"
+                src="./images/cross.svg"
+                alt="Крестик" />
+              <p class="plans__card-features-feature-name">Custom templates</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- plan-3 199$ -->
+        <div class="plans__card">
+          <div class="plans__card-price">
+            <h1 class="plans__card-price-title">$199</h1>
+            <p class="plans__card-price-description">
+              It&nbsp;is&nbsp;a&nbsp;long established fact that a&nbsp;reader
+              will be&nbsp;distracted.
+            </p>
+            <button
+              class="plans__card-price-button rectangular-button rectangular-button_green">
+              Try now
+            </button>
+          </div>
+
+          <div class="plans__card-features">
+            <div class="plans__card-features-feature">
+              <img
+                class="plans__card-features-feature-icon"
+                src="./images/check.svg"
+                alt="Галочка" />
+              <p class="plans__card-features-feature-name">PNG templates</p>
+            </div>
+
+            <div class="plans__card-features-feature">
+              <img
+                class="plans__card-features-feature-icon"
+                src="./images/check.svg"
+                alt="Крестик" />
+              <p class="plans__card-features-feature-name">
+                Figma responsive components
+              </p>
+            </div>
+
+            <div class="plans__card-features-feature">
+              <img
+                class="plans__card-features-feature-icon"
+                src="./images/check.svg"
+                alt="Крестик" />
+              <p class="plans__card-features-feature-name">Constant updates</p>
+            </div>
+
+            <div class="plans__card-features-feature">
+              <img
+                class="plans__card-features-feature-icon"
+                src="./images/check.svg"
+                alt="Крестик" />
+              <p class="plans__card-features-feature-name">Custom templates</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- testimonials -->
+      <section class="testimonials">
+        <div class="testimonials__avatars">
+          <img
+            class="testimonials__avatars-avatar"
+            src="./images/avatar-group.png"
+            alt="автарки" />
+          <!-- <img
+            src="./images/avatar-1.png"
+            alt="аватар 1"
+            class="testimonials__avatars-avatar" />
+          <img
+            src="./images/avatar-2.png"
+            alt="аватар 2"
+            class="testimonials__avatars-avatar" />
+          <img
+            src="./images/avatar-3.png"
+            alt="аватар 3"
+            class="testimonials__avatars-avatar" />
+          <img
+            src="./images/avatar-4.png"
+            alt="аватар 4"
+            class="testimonials__avatars-avatar" />
+          <img
+            src="./images/avatar-5.png"
+            alt="аватар 5"
+            class="testimonials__avatars-avatar" /> -->
+        </div>
+
+        <div class="testimonials__decorative">
+          <!-- <div class="testimonials__decorative-line"></div>
+          <div class="testimonials__decorative-circle"></div>
+          <div class="testimonials__decorative-line"></div>
+          <div class="testimonials__decorative-circle"></div>
+          <div class="testimonials__decorative-line"></div>
+          <div class="testimonials__decorative-circle"></div>
+          <div class="testimonials__decorative-line"></div>
+          <div class="testimonials__decorative-circle">
+            <div class="testimonials__decorative-circle-fill"></div>
+          </div>
+          <div class="testimonials__decorative-line"></div> -->
+        </div>
+
+        <div class="testimonials__quote">
+          <div class="testimonials__quote-icons">
+            <img
+              src="./images/quotation-mark.svg"
+              alt="Кавычки"
+              class="testimonials__quote-icons-icon" />
+            <img
+              src="./images/quotation-mark.svg"
+              alt="Кавычки"
+              class="testimonials__quote-icons-icon" />
+          </div>
+          <div class="testimonials__quote-text">
+            <q class="testimonials__quote-text-opinion">
+              It&nbsp;is&nbsp;a&nbsp;long established fact that a&nbsp;reader
+              <br />will be&nbsp;distracted by the readable content
+              of&nbsp;a&nbsp;page when looking at&nbsp;its layout.
+            </q>
+            <cite class="testimonials__quote-text-author">Lora Smith</cite>
+          </div>
+        </div>
+      </section>
+
+      <!-- templates -->
+      <section class="templates">
+        <div class="templates__text">
+          <h1 class="templates__title">Try using our templates!</h1>
+          <p class="templates__description">
+            Let&rsquo;s embody your beautiful ideas together, simplify the way
+            you visualize your next big things.
+          </p>
+        </div>
+        <img
+          src="./images/place-2.png"
+          alt="Холмы и горы"
+          class="templates__image" />
+
+        <div class="templates__actions">
+          <h2 class="templates__actions-title">Try using our templates!</h2>
+          <div class="templates__actions-border-line"></div>
+          <p class="templates__actions-description">
+            Let&rsquo;s embody your beautiful ideas together, simplify the way
+            you visualize your next big things.
+          </p>
+          <div class="templates__actions-buttons">
+            <button
+              class="templates__actions-button rectangular-button rectangular-button_green">
+              Try now
+            </button>
+            <button class="templates__actions-button rectangular-button">
+              Try now
+            </button>
+          </div>
+        </div>
+
+        <div class="templates__ideas">
+          <div class="templates__ideas-card">
+            <div class="templates__ideas-card-text">
+              <h5 class="templates__ideas-card-title">
+                Try using our templates!
+              </h5>
+              <a class="templates__ideas-card-link" href="#">Learn more</a>
+            </div>
+            <div class="templates__ideas-card-description">
+              <p class="templates__ideas-card-description-text">
+                Let&rsquo;s embody your beautiful ideas together, simplify the
+                way you visualize your next big things.
+              </p>
+              <img
+                class="templates__ideas-card-description-image"
+                src="./images/templates-place-1.png"
+                alt="Место-1" />
+            </div>
+          </div>
+
+          <div class="templates__ideas-card">
+            <div class="templates__ideas-card-text">
+              <h5 class="templates__ideas-card-title">
+                Try using our templates!
+              </h5>
+              <a class="templates__ideas-card-link" href="#">Learn more</a>
+            </div>
+            <div class="templates__ideas-card-description">
+              <p class="templates__ideas-card-description-text">
+                Let’s embody your beautiful ideas together, simplify the way you
+                visualize your next big things.
+              </p>
+              <img
+                class="templates__ideas-card-description-image"
+                src="./images/templates-place-2.png"
+                alt="Место-2" />
+            </div>
+          </div>
+
+          <div class="templates__ideas-card">
+            <div class="templates__ideas-card-text">
+              <h5 class="templates__ideas-card-title">
+                Try using our templates!
+              </h5>
+              <a class="templates__ideas-card-link" href="#">Learn more</a>
+            </div>
+            <div class="templates__ideas-card-description">
+              <p class="templates__ideas-card-description-text">
+                Let&rsquo;s embody your beautiful ideas together, simplify the
+                way you visualize your next big things.
+              </p>
+              <img
+                class="templates__ideas-card-description-image"
+                src="./images/templates-place-3.png"
+                alt="Место-3" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- team -->
+      <section class="team">
+        <div class="team__card">
+          <img
+            class="team__card-person"
+            src="./images/photo-1.png"
+            alt="Участник команды" />
+          <div class="team__card-description">
+            Let&rsquo;s embody your beautiful ideas together, simplify the way
+            you visualize your next big things.
+          </div>
+        </div>
+        <div class="team__card">
+          <img
+            class="team__card-person-background"
+            src="./images/background-photo.png"
+            alt="Фон" />
+          <img
+            class="team__card-person"
+            src="./images/photo-2.png"
+            alt="Участник команды" />
+          <div class="team__card-description">
+            Let&rsquo;s embody your beautiful ideas together, simplify the way
+            you visualize your next big things.
+          </div>
+        </div>
+      </section>
+
+      <!-- form -->
+      <section class="form">
+        <form class="form__block">
+          <h1 class="form__block-title">Try using our templates!</h1>
+          <input
+            class="form__block-input form__block-input_where"
+            type="text"
+            placeholder="Where" />
+          <div class="form__block-check">
+            <input
+              class="form__block-input form__block-check_check-in"
+              type="text"
+              placeholder="Check in" />
+            <input
+              class="form__block-input form__block-check_check-out"
+              type="text"
+              placeholder="Check out" />
+          </div>
+          <input
+            class="form__block-input form__block-input_guest"
+            type="text"
+            placeholder="Guests" />
+          <button
+            class="form__block-button rectangular-button rectangular-button_green">
+            Search
+          </button>
+        </form>
+      </section>
     </main>
-    <footer class="footer"></footer>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div></div>
+      <div class="footer__background-info">
+        <div class="footer__background-info-socials">
+          <a href="https://ok.ru/" class="footer__background-info-socials-link">
+            <img
+              class="footer__background-info-socials-link-icon"
+              src="./images/social_odnoklassniki.svg"
+              alt="Иконка одноклассники" />
+          </a>
+          <a href="https://vk.com" class="footer__background-info-socials-link">
+            <img
+              class="footer__background-info-socials-link-icon"
+              src="./images/social_vk.svg"
+              alt="Иконка вк" />
+          </a>
+          <a
+            href="https://web.telegram.org"
+            class="footer__background-info-socials-link">
+            <img
+              class="footer__background-info-socials-link-icon"
+              src="./images/social_telegram.svg"
+              alt="Иконка телеграм" />
+          </a>
+        </div>
+
+        <div class="footer__background-info-links">
+          <a href="#" class="footer__background-info-links-link">About</a>
+          <a href="#" class="footer__background-info-links-link">Features</a>
+          <a href="#" class="footer__background-info-links-link">Pricing</a>
+          <a href="#" class="footer__background-info-links-link">Gallery</a>
+          <a href="#" class="footer__background-info-links-link">Team</a>
+        </div>
+      </div>
+
+      <div class="footer__button rectangular-button rectangular-button_green">
+        Contact us
+      </div>
+    </footer>
   </body>
 </html>

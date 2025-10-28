@@ -1,0 +1,90 @@
+.intro {
+  display: flex;
+  align-items: center;
+  gap: 190px;
+  margin: 89px 150px;
+}
+
+.intro__text {
+  min-width: 580px;
+  display: flex;
+  flex-direction: column;
+  gap: 37px;
+}
+
+.intro__text-title {
+  font-size: 51px;
+  font-weight: 600;
+}
+
+.intro__text-subtitles {
+  display: flex;
+  max-width: 540px;
+}
+
+.intro__text-subtitles-shapes {
+  margin: 6px 24px 6px 0;
+  display: grid;
+  justify-items: center;
+  gap: 5px;
+  grid-template-rows: auto 1fr auto;
+}
+
+.intro__text-subtitles-shapes_circle {
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  background-color: var(--dark-green);
+}
+
+.intro__text-subtitles-shapes_vertical-line {
+  border-left: 1px dashed var(--dark-green);
+}
+
+.intro__text-subtitles-shapes_small-circle {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: var(--dark-green);
+}
+
+.intro__text-subtitles-wrapper {
+  font-size: 16px;
+  line-height: 21px;
+  margin-right: 32px;
+  display: grid;
+  gap: 26px;
+}
+
+.intro__text-subtitles-subtitle {
+  box-sizing: border-box;
+  min-width: 400px;
+  padding: 0 0 12px;
+  border-bottom: 1px solid var(--light-grey);
+}
+
+.intro__subtitles-button {
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--green);
+  display: flex;
+  justify-content: center;
+  align-self: flex-end;
+}
+.intro__subtitles-button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.intro__subtitles-button-icon {
+  width: 24px;
+}
+
+.intro__image {
+  width: 848px;
+  height: 383px;
+  object-fit: cover;
+  border-radius: 8px;
+}

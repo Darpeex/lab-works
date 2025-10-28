@@ -4,6 +4,26 @@
 /* fonts */
 @import url(./css/fonts.css);
 
-/* section */
-/* @import url(../blocks/section/section.css);
-@import url(../blocks/section/_narrow/section_narrow.css); */
+/* header */
+@import url(./css/header.css);
+
+/* intro */
+@import url(./css/intro.css);
+
+/* plans */
+@import url(./css/plans.css);
+
+/* testimonials */
+@import url(./css/testimonials.css);
+
+/* templates */
+@import url(./css/templates.css);
+
+/* team */
+@import url(./css/team.css);
+
+/* form */
+@import url(./css/form.css);
+
+/* footer */
+@import url(./css/footer.css);

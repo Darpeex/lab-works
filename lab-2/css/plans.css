@@ -1,0 +1,64 @@
+.plans {
+  max-width: 1680px;
+  margin: 174px 120px;
+  display: grid;
+  gap: 34px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.plans__card {
+  display: flex;
+}
+
+/* price */
+.plans__card-price {
+  padding: 16px 27px;
+  max-width: 270px;
+  background-color: var(--light-green);
+  display: grid;
+  gap: 24px;
+}
+
+.plans__card-price-title {
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.plans__card-price-description {
+  color: var(--dark-green);
+  font-size: 12px;
+}
+
+.plans__card-price-button {
+  /* font-weight: 18px;
+  padding: 14.5px 72.5px;
+  color: var(--white);
+  background: var(--dark-green); */
+}
+
+/* features */
+.plans__card-features {
+  padding: 28px 29px;
+  font-size: 16px;
+  display: grid;
+  gap: 11px;
+}
+
+.plans__card-features-feature {
+  display: flex;
+  gap: 15.5px;
+  align-items: center;
+  max-width: 220px;
+}
+.plans__card-features-feature_disabled {
+  opacity: 0.3;
+}
+
+.plans__card-features-feature-icon {
+  width: 13px;
+  height: 13px;
+  background: url(../images/cross) no-repeat;
+}
+
+.plans__card-features-feature-name {
+}

@@ -1,0 +1,50 @@
+.form {
+  background: url(../images/background-from.png);
+}
+
+.form__block {
+  padding: 24px;
+  max-width: 380px;
+  margin: 43.5px auto 43.5px 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 32.5px;
+  background-color: var(--white);
+}
+
+.form__block-title {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.form__block-input {
+  border: none;
+  color: var(--grey);
+  padding: 20px 16px;
+  background-color: var(--light-grey);
+  border-radius: 4px;
+}
+.form__block-input::placeholder {
+  font-size: 18px;
+}
+.form__block-input_where {
+}
+.form__block-check {
+  display: flex;
+  gap: 16px;
+}
+.form__block-check_check-in {
+  max-width: 158px;
+}
+.form__block-check_check-out {
+  max-width: 158px;
+}
+.form__block-input_guest {
+}
+
+.form__block-button {
+  padding: 15px 64px;
+  align-self: flex-end;
+  max-width: 185px;
+  border: none;
+}
