@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Urbanist";
+  font-weight: 400;
+  src: url(../fonts/Urbanist/Urbanist-Regular.woff2) format("woff2"),
+    url(../fonts/Urbanist/Urbanist-Regular.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Urbanist";
+  font-weight: 500;
+  src: url(../fonts/Urbanist/Urbanist-Medium.woff2) format("woff2"),
+    url(../fonts/Urbanist/Urbanist-Medium.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Urbanist";
+  font-weight: 600;
+  src: url(../fonts/Urbanist/Urbanist-SemiBold.woff2) format("woff2"),
+    url(../fonts/Urbanist/Urbanist-SemiBold.woff) format("woff");
+}

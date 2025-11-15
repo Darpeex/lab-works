@@ -1,0 +1,14 @@
+/* normalize.css */
+@import url(./css/normalize.css);
+
+/* fonts */
+@import url(./css/fonts.css);
+
+/* Разделы */
+@import url(./css/header.css);
+
+@import url(./css/intro.css);
+
+@import url(./css/articles.css);
+
+@import url(./css/footer.css);

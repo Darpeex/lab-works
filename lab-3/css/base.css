@@ -1,0 +1,53 @@
+:root {
+  /* используемые цвета */
+  --white: #ffffff;
+  --grey-15: #262626;
+  --grey-20: #333333;
+  --grey-90: #e6e6e6;
+  --grey-95: #f2f2f2;
+  --green-70: #cbea7b;
+  --green-85: #e5f5bd;
+  --green-90: #eef8d3;
+  --green-95: #f6fbe9;
+  --green-97: #fafdf2;
+  --dark-green-15: #1a3129;
+  --dark-green-25: #2c5446;
+  --dark-green-20: #234338;
+  --dark-green-30: #356554;
+
+  --linear-gradient-light: linear-gradient(
+    180deg,
+    rgba(203, 234, 123, 0) 0%,
+    #f6fbe9 100%
+  );
+  --linear-gradient: linear-gradient(
+    180deg,
+    #cbea7b 0%,
+    rgba(203, 234, 123, 0) 100%
+  );
+  --radial-gradient-light: radial-gradient(
+    86.18% 86.18% at 50% 34.21%,
+    #cbea7b 0%,
+    rgba(203, 234, 123, 0) 71.35%
+  );
+  --radial-gradient: radial-gradient(
+    86.18% 86.18% at 50% 34.21%,
+    #cbea7b 0%,
+    rgba(203, 234, 123, 0) 100%
+  );
+}
+
+.page {
+  margin: 0 auto;
+  min-width: 320px;
+  color: var(--grey-20);
+  background-color: var(--green-97);
+  font-family: "Urbanist", sans-serif;
+
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
