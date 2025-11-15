@@ -39,6 +39,7 @@
 
 .page {
   margin: 0 auto;
+  padding-top: 172px;
   min-width: 320px;
   color: var(--grey-20);
   background-color: var(--green-97);
@@ -50,4 +51,12 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
+}
+
+.button {
+  background-color: var(--green-70);
+  padding: 14px 24px;
+  border-radius: 8px;
+  color: var(--grey-15);
+  font-weight: 600;
 }

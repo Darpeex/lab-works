@@ -4,6 +4,9 @@
 /* fonts */
 @import url(./css/fonts.css);
 
+/* base */
+@import url(./css/base.css);
+
 /* Разделы */
 @import url(./css/header.css);
 

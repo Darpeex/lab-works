@@ -1,0 +1,38 @@
+.header {
+  padding: 0 162px;
+  background-color: var(--dark-green-15);
+
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 600;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  background: url(../images/logo.svg);
+  width: 194px;
+  height: 45px;
+}
+
+.header__navigation {
+  padding: 20px 0;
+  display: flex;
+}
+
+.header__navigation-links {
+  margin-right: 40px;
+  display: flex;
+  gap: 26px;
+  align-items: center;
+}
+
+.header__navigation-links-link {
+  color: var(--green-97);
+  text-decoration: none;
+}
+
+.header__navigation-button {
+}
