@@ -1,7 +1,7 @@
 .articles {
   align-self: center;
   display: grid;
-  grid-template-columns: repeat(2, minmax(200px, 798px));
+  grid-template-columns: repeat(2, minmax(200px, 1fr));
   border-radius: 12px;
   margin-bottom: 150px;
 }
