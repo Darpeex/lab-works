@@ -1,5 +1,5 @@
 .intro {
-  padding: 100px; /* 5.25% */
+  padding: 100px;
   text-align: center;
   background: url(../images/abstract-design.svg) no-repeat var(--green-95);
   background-size: 749px calc(380px + 47px);
