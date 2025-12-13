@@ -1,0 +1,27 @@
+.intro {
+  padding: 100px; /* 5.25% */
+  text-align: center;
+  background: url(../images/abstract-design.svg) no-repeat var(--green-95);
+  background-size: 749px calc(380px + 47px);
+  background-position: center -47px;
+}
+
+.intro__logo {
+  margin: 0 auto 80px;
+  background: url(../images/logo-intro.svg) no-repeat;
+  width: 90px;
+  height: 90px;
+  background-size: contain;
+  border: 3px solid var(--white);
+  border-radius: 16px;
+}
+
+.intro__title {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.intro__subtitle {
+  font-weight: 500;
+  font-size: 18px;
+}
