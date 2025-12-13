@@ -1,3 +1,7 @@
+.preheader {
+  display: none;
+}
+
 .header {
   padding: 0 162px;
   background-color: var(--dark-green-15);
@@ -36,4 +40,98 @@
 .header__navigation-links-link:hover {
   cursor: pointer;
   color: var(--green-70);
+}
+
+@media screen and (max-width: 1189px) {
+  .header__logo {
+    width: 147px;
+    height: 34px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .header__navigation-links {
+    display: none;
+  }
+  .header__navigation-button {
+    color: transparent;
+    padding: 0;
+    width: 34px;
+    height: 34px;
+    background: url(../images/icon-menu-button.svg) no-repeat;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .preheader {
+    color: var(--white);
+    position: relative;
+    display: block;
+    min-height: 94px;
+    background: var(--dark-green-15);
+    border: 1px solid var(--dark-green-20);
+    overflow: hidden;
+  }
+  .preheader__decor-el {
+    position: absolute;
+    width: 144px;
+    height: 74px;
+  }
+  .preheader__decor-el-left {
+    background: url(../images/preheader-decor-el-left.svg) no-repeat;
+    bottom: -25px;
+  }
+  .preheader__decor-el-right {
+    background: url(../images/preheader-decor-el-right.svg) no-repeat;
+    right: -72px;
+    bottom: -41px;
+  }
+  .preheader__offer {
+    position: relative;
+    padding: 10px;
+    margin: 40px 16px 14px;
+    border: 1px solid var(--dark-green-25);
+    border-radius: 6px;
+    background: var(--dark-green-20);
+
+    gap: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .preheader__offer-icon {
+    width: 24px;
+    height: 24px;
+  }
+  .preheader__offer-decor-icon {
+    background: url(../images/icon-ball.svg) no-repeat;
+    background-size: 100% 100%;
+  }
+  .preheader__offer-description {
+    margin: 0;
+  }
+  .preheader__offer-action-icon {
+    background: url(../images/icon-arrow-right.svg) no-repeat;
+    background-size: 100% 100%;
+  }
+  .preheader__offer-action-icon:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+
+  .header {
+    padding: 0 32px;
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .preheader__offer {
+    justify-content: space-between;
+  }
+  .preheader__offer-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .header {
+    padding: 0 16px;
+  }
 }

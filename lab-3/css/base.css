@@ -52,3 +52,29 @@
   cursor: pointer;
   opacity: 0.85;
 }
+
+@media screen and (max-width: 1023px) {
+  .page {
+    padding-top: 0px;
+    font-size: 16px;
+  }
+  .section {
+    margin: 0 32px;
+  }
+  .button {
+    padding: 14px 22px;
+    border-radius: 7px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .page {
+    font-size: 14px;
+  }
+  .section {
+    margin: 0 16px;
+  }
+  .button {
+    padding: 14px 20px;
+    border-radius: 6px;
+  }
+}
