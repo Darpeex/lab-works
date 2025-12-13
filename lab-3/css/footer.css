@@ -6,9 +6,6 @@
   gap: 50px;
 }
 
-.footer__navbar-logo {
-}
-
 .footer__navbar-logo-icon {
   background: url(../images/logo.svg);
   width: 194px;
@@ -30,13 +27,13 @@
   text-decoration: none;
   color: var(--white);
 }
+.footer__navbar-nav-link:hover {
+  opacity: 0.8;
+}
 
 .footer__navbar-nav-to-top {
   display: flex;
   gap: 20px;
-}
-
-.footer__navbar-nav-to-top-label {
 }
 
 .footer__navbar-nav-to-top-link-btn {
