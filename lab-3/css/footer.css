@@ -86,3 +86,7 @@
 .footer__contacts-contact-value {
   margin: 0;
 }
+
+.footer__about-rules {
+  font-weight: 400;
+}

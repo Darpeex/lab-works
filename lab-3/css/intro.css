@@ -20,11 +20,6 @@
   font-weight: 600;
 }
 
-.intro__subtitle {
-  font-weight: 500;
-  font-size: 18px;
-}
-
 @media screen and (max-width: 1023px) {
   .intro {
     padding: 40px;
@@ -39,9 +34,6 @@
   }
   .intro__title {
     font-size: 38px;
-  }
-  .intro__subtitle {
-    font-size: 16px;
   }
 }
 @media screen and (max-width: 479px) {
@@ -58,8 +50,5 @@
   }
   .intro__title {
     font-size: 28px;
-  }
-  .intro__subtitle {
-    font-size: 14px;
   }
 }
