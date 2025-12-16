@@ -29,3 +29,25 @@
   cursor: pointer;
   border: 1px solid var(--dark-green-30);
 }
+
+@media screen and (max-width: 1023px) {
+  .categories {
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 40px;
+  }
+  .categories-form {
+    padding: 30px 40px;
+  }
+  .categories-form__label {
+    padding: 12px 20px;
+    border-radius: 6px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .categories {
+    margin-bottom: 30px;
+  }
+  .categories-form {
+    padding: 20px;
+  }
+}

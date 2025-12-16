@@ -12,7 +12,6 @@
   width: 90px;
   height: 90px;
   background-size: contain;
-  border: 3px solid var(--white);
   border-radius: 16px;
 }
 
@@ -24,4 +23,43 @@
 .intro__subtitle {
   font-weight: 500;
   font-size: 18px;
+}
+
+@media screen and (max-width: 1023px) {
+  .intro {
+    padding: 40px;
+    background-size: 600px calc(300px + 47px);
+    border-radius: 10px 10px 0 0;
+  }
+  .intro__logo {
+    margin: 0 auto 30px;
+    width: 75px;
+    height: 75px;
+    border-radius: 13px;
+  }
+  .intro__title {
+    font-size: 38px;
+  }
+  .intro__subtitle {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .intro {
+    padding: 30px;
+    background-size: 417px calc(211px + 47px);
+    border-radius: 10px 10px 0 0;
+  }
+  .intro__logo {
+    margin: 0 auto 30px;
+    width: 62px;
+    height: 62px;
+    border-radius: 10px;
+  }
+  .intro__title {
+    font-size: 28px;
+  }
+  .intro__subtitle {
+    font-size: 14px;
+  }
 }
