@@ -89,7 +89,7 @@
   margin: 0;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1279px) {
   .articles {
     grid-template-columns: 1fr;
     border-radius: 10px;
@@ -103,10 +103,10 @@
     padding: 8px 0;
   }
   .article__image-wrapper {
-    padding: 0 40px 0 90px;
+    padding: 0 70px 0 150px;
   }
   .article__image-wrapper-image {
-    height: 180px;
+    height: 260px;
   }
   /* 5 элемент и последующие */
   .article:nth-of-type(n + 5) {
@@ -121,6 +121,14 @@
   .article__describtion-text-title {
     font-size: 22px;
     margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .article__image-wrapper {
+    padding: 0 40px 0 90px;
+  }
+  .article__image-wrapper-image {
+    height: 200px;
   }
 }
 @media screen and (max-width: 479px) {
