@@ -25,3 +25,11 @@
 - role — роль
 - email — email
 - createdAt — дата регистрации
+
+*Если потребуется, можно добавить выпадающий список* 
+```
+<select name="role">
+  <option value="Пользователь">Пользователь</option>
+  <option value="Администратор">Администратор</option>
+</select>;
+```
