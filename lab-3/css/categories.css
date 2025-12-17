@@ -10,6 +10,7 @@
   justify-content: space-between;
   padding: 30px 150px;
   overflow: hidden;
+  gap: 10px;
 }
 
 .categories-form__input {
