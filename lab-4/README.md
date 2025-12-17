@@ -14,10 +14,10 @@
 
 ### Пример:
 
-6. Установить Node.js (https://nodejs.org/)
-7. Скачать пример (https://github.com/elenanga/express_example.git)
-8. Установить модули ( npm install )
-9. Запустить сервер( node server.js)
+6. Установить Node.js
+7. Скачать пример
+8. Установить модули (npm install)
+9. Запустить сервер (node server.js)
 
 ### Вариант 13. Пользователи системы
 
