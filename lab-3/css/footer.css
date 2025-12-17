@@ -33,10 +33,11 @@
 
 .footer__navbar-nav-to-top {
   display: flex;
+  align-items: center;
   gap: 20px;
 }
 
-.footer__navbar-nav-to-top-link-btn {
+.footer__navbar-nav-to-top-btn {
   width: 62px;
   height: 62px;
   border: none;
@@ -44,15 +45,9 @@
   background: var(--dark-green-20) no-repeat center;
   background-image: url(../images/icon-arrow-up.svg);
 }
-.footer__navbar-nav-to-top-link-btn:hover {
+.footer__navbar-nav-to-top-btn:hover {
   cursor: pointer;
   opacity: 0.8;
-}
-
-.footer__navbar-nav-to-top-link {
-  width: 62px;
-  height: 62px;
-  border-radius: 50%;
 }
 
 .footer__about {
@@ -127,14 +122,10 @@
     gap: 6px;
     justify-self: end;
   }
-  .footer__navbar-nav-to-top-link-btn {
+  .footer__navbar-nav-to-top-btn {
     width: 48px;
     height: 48px;
     background-size: 24px 24px;
-  }
-  .footer__navbar-nav-to-top-link {
-    width: 48px;
-    height: 48px;
   }
 
   .footer__about {
