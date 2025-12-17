@@ -6,21 +6,32 @@ const server = http.createServer(app);
 
 app.use(express.urlencoded({ extended: true }));
 
-let items = [
-  { id: 1, name: "Яблоко", price: 100 },
-  { id: 2, name: "Банан", price: 80 },
+let users = [
+  {
+    login: { name: "user_1", id: 1 },
+    role: "Пользователь",
+    email: "email1@example.ru",
+    createdAt: new Date().toLocaleTimeString(),
+  },
+  {
+    login: { name: "admin_1", id: 2 },
+    role: "Администратор",
+    email: "email2@example.ru",
+    createdAt: new Date().toLocaleTimeString(),
+  },
 ];
 
 app.get("/", (req, res) => {
-  const rows = items
+  const rows = users
     .map(
-      (item) => `
+      (user) => `
         <tr>
-          <td>${item.id}</td>
-          <td>${item.name}</td>
-          <td>${item.price}</td>
+          <td>${user.login.name}</td>
+          <td>${user.role}</td>
+          <td>${user.email}</td>
+          <td>${user.createdAt}</td>
           <td>
-            <form method="POST" action="/delete/${item.id}" style="display:inline">
+            <form method="POST" action="/delete/${user.login.id}" style="display:inline">
               <button type="submit">❌ Удалить</button>
             </form>
           </td>
@@ -34,7 +45,7 @@ app.get("/", (req, res) => {
     <html>
     <head>
       <meta charset="UTF-8" />
-      <title>Таблица товаров</title>
+      <title>Пользователи системы</title>
       <style>
         table { border-collapse: collapse; width: 500px; }
         td, th { border: 1px solid #ccc; padding: 8px; }
@@ -43,22 +54,24 @@ app.get("/", (req, res) => {
       </style>
     </head>
     <body>
-      <h2>Список товаров</h2>
+      <h2>Пользователи системы</h2>
 
       <table>
         <tr>
-          <th>ID</th>
-          <th>Название</th>
-          <th>Цена</th>
+          <th>Логин</th>
+          <th>Роль</th>
+          <th>Email</th>
+          <th>Дата регистрации</th>
           <th>Действия</th>
         </tr>
         ${rows}
       </table>
 
       <form method="POST" action="/add">
-        <h3>Добавить товар</h3>
-        <input name="name" placeholder="Название" required />
-        <input name="price" type="number" placeholder="Цена" required />
+        <h3>Добавить пользователя</h3>
+        <input name="loginName" placeholder="Логин" required />
+        <input name="role" placeholder="Роль" required />
+        <input name="email" placeholder="Email" required />
         <button type="submit">Добавить</button>
       </form>
     </body>
@@ -67,21 +80,23 @@ app.get("/", (req, res) => {
 });
 
 app.post("/add", (req, res) => {
-  const { name, price } = req.body;
+  const { loginName, role, email } = req.body;
 
-  items.push({
-    id: Date.now(), // уникальный id
-    name,
-    price: Number(price),
+  users.push({
+    login: { name: loginName, id: Date.now() }, // уникальный login
+    role,
+    email,
+    createdAt: new Date().toLocaleTimeString(),
   });
 
   res.redirect("/");
 });
 
 app.post("/delete/:id", (req, res) => {
+  console.log(req.params.id);
   const id = Number(req.params.id);
 
-  items = items.filter((item) => item.id !== id);
+  users = users.filter((user) => user.login.id !== id);
 
   res.redirect("/");
 });
